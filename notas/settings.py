@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xl+#7g494es-0jx7pio+e$p4n7ltb0dzcc(5cv4g0=u0v&si-0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://testeapidjango.herokuapp.com/']
+ALLOWED_HOSTS = ['testeapidjango.herokuapp.com/']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api.apps.ApiConfig',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
