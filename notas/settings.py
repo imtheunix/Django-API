@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xl+#7g494es-0jx7pio+e$p4n7ltb0dzcc(5cv4g0=u0v&si-0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [".herokuapp.com"]
+ALLOWED_HOSTS = [".herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
@@ -131,3 +131,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+DEFAULT_AUTHENTICATION_CLASSES = [
+    'rest_framework.authentication.BasicAuthentication',
+]
