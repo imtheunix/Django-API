@@ -21,19 +21,19 @@ def getRoutes(request):
             'description': 'Retorna uma nota em especifico'
         },
         {
-            'Endpoint': '/notas/create',
+            'Endpoint': '/notas/criar',
             'method': 'POST',
             'body': {'body': ""},
             'description': 'Cria uma nova nota'
         },
         {
-            'Endpoint': '/notas/id/update/',
+            'Endpoint': '/notas/id/modificar/',
             'method': 'PUT',
             'body': {'body': ""},
             'description': 'Altera uma nota'
         },
         {
-            'Endpoint': '/notas/id/delete/',
+            'Endpoint': '/notas/id/deletar/',
             'method': 'DELETE',
             'body': None,
             'description': 'Deleta uma nota'
