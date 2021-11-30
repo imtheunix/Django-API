@@ -33,7 +33,7 @@ def getRoutes(request):
             'description': 'Altera uma nota'
         },
         {
-            'Endpoint': '/notas/id/deletara/',
+            'Endpoint': '/notas/id/deletar/',
             'method': 'DELETE',
             'body': None,
             'description': 'Deleta uma nota'
