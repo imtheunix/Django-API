@@ -15,13 +15,13 @@ def getRoutes(request):
             'description': 'Retorna todas as notas'
         },
         {
-            'Endpoint': '/notas/id',
+            'Endpoint': '/notas/id/',
             'method': 'GET',
             'body': None,
             'description': 'Retorna uma nota em especifico'
         },
         {
-            'Endpoint': '/notas/criar',
+            'Endpoint': '/notas/criar/',
             'method': 'POST',
             'body': {'body': ""},
             'description': 'Cria uma nova nota'
@@ -33,7 +33,7 @@ def getRoutes(request):
             'description': 'Altera uma nota'
         },
         {
-            'Endpoint': '/notas/id/deletar/',
+            'Endpoint': '/notas/id/deletara/',
             'method': 'DELETE',
             'body': None,
             'description': 'Deleta uma nota'
